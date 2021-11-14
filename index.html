@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="assets/reset.css">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <nav class="nav-bar">
+    <div class="menu-logo-container">
+      <div class="menu-icon">
+        <a class="menu" href="#"><img src="images/icon-menu.svg" alt="menu-icon"></a>
+      </div>
+      <div class="logo-cont">
+        <img class="logo" src="images/logo.svg" alt="logo">
+      </div>
+      <ul class="display-none desktop-list">
+        <li><a href="#">Collections</a></li>
+        <li><a href="#">Men</a></li>
+        <li><a href="#">Women</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="profile-cont">
+      <div class="icon-cart">
+        <a href="#"><img src="images/icon-cart.svg" alt="icon-cart"></a>
+      </div>
+      <div class="avatar">
+        <a  href="#"><img src="images/image-avatar.png" alt="image-avatar" style="width:32px;"></a>
+      </div>
+    </div>
+  </nav>
+ <hr class="display-none display-block">
+  <div class="main-container">
+    <div class="benner-box">
+      <img class="product-1" src="images/image-product-1.jpg" alt="" width="100%">
+      <div class="thumbnail-jpg">
+        <img class="product-thumbnail"  src="images/image-product-2-thumbnail.jpg" alt="" width="20%">
+      <img class="product-thumbnail"  src="images/image-product-3-thumbnail.jpg" alt="" width="20%">
+      <img class="product-thumbnail"  src="images/image-product-4-thumbnail.jpg" alt="" width="20%">
+      <img class="product-thumbnail"  src="images/image-product-1-thumbnail.jpg" alt="" width="20%">
+      </div>
+    <div class="left-right-links">
+      <div class="previous-icon bg-icon">
+        <img src="images/icon-previous.svg" alt="">
+      </div>
+      <div class="next-icon bg-icon">
+        <img src="images/icon-next.svg" alt="">
+      </div>
+    </div>
+    </div>
+
+    <div class="details-info">
+      <h1 class="tx-orange">sneaker company</>
+      <h2 class="tx-big">Fall Limited Edition Sneakers</h2>
+      <p class="tx-normal">These low-profile sneakers are your perfect
+        casual wear companion. Featuring a durable 
+        rubber outer sole, they'll withstand everything
+        the weather can offer.
+      </p>
+      <div class="cost-box">
+        <div class="cost-box-left">
+          <h2 class="tx-big">$125.00</h2>
+        <h1 class="tx-orange bg-pink">50%</h1>
+        </div>
+        <div class="iskonto">
+          <span>$250.00</span>
+        </div>
+      </div>
+      <div class="bttn-box">
+        <div class="number-of-items">
+          <button class="minus-box">
+            <img src="images/icon-minus.svg" alt="">
+          </button>
+          <div class="number">
+            <p>0</p>
+          </div>
+          <button class="plus-box">
+            <img src="images/icon-plus.svg" alt="">
+          </button>
+        </div>
+        <button class="bttn-orange">
+          <img class="cart-white" src="images/icon-cart-white.svg" alt="">
+          <p>Add to cart</p>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Zehray">Zehray</a>.
+  </div>
+</body>
+</html>

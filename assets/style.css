@@ -1,0 +1,291 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 960px;
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+.nav-bar .menu-logo-container{
+    display: flex;
+    align-items: flex-end;
+}
+.logo{
+    margin-left: 10px;
+}
+
+.avatar{
+    margin-left: 20px;
+}
+.display-none{
+    display: none;
+}
+
+.profile-cont{
+    display: flex;
+    align-items: center;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.benner-box{
+    position: relative;
+}
+
+.product-1{
+    position: relative;
+}
+.thumbnail-jpg{
+    display: none;
+}
+
+.left-right-links{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 50%;
+    padding: 0 20px;
+}
+
+.bg-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.details-info{
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    height: 100%;
+    align-items: flex-start;
+    align-content: center;
+    justify-content: center;
+    margin:30px auto 0 auto;
+}
+.tx-orange{
+    color:hsl(26, 100%, 55%);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.tx-big{
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.bg-pink{
+    background: hsl(25, 100%, 94%);
+    padding: 10px;
+    border-radius: 8px;
+}
+.tx-normal{
+font-size: 16px;
+font-weight: 400;
+line-height: 25px;
+}
+.cost-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+.cost-box-left{
+    display: flex;
+}
+.cost-box-left .tx-big{
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+.cost-box-left .tx-orange{
+    margin-bottom: 0;
+}
+.iskonto{
+    text-decoration: line-through;
+    text-decoration-color: hsl(220, 14%, 75%);
+}
+
+.iskonto span{
+    font-weight: 700;
+    color: hsl(220, 14%, 75%);
+    font-size: 18px;
+}
+
+.bttn-box{
+    width: 100%;
+}
+
+.number-of-items{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    background: hsl(223, 64%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+}
+.number-of-items button{
+    border: none;
+    background: none;
+}
+
+.number-of-items .number{
+font-weight: 700;
+}
+.bttn-orange{
+    display: flex;
+    justify-content: center;
+    border: none;
+    background: hsl(26, 100%, 55%);
+    color: white;
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    align-items: flex-end;
+}
+
+.cart-white{
+    margin-right: 15px;
+}
+
+.attribution{
+    bottom: 0;
+}
+
+
+
+@media only screen and (min-width: 960px) {
+
+    .container{
+        margin: 0 auto;
+    }
+    .left-right-links{
+        display: none;
+    }
+    .nav-bar .menu-logo-container{
+        align-items: center;
+    }
+    .menu-icon{
+        display: none;
+    }
+    .desktop-list{
+        display: flex;
+        margin-left: 40px;
+    }
+
+    
+
+    .desktop-list li a {
+        text-decoration: none;
+        padding: 0 20px;
+        padding-bottom: 31px;
+        font-weight: 400;
+        color: hsl(219, 9%, 45%);
+        cursor: pointer;
+    }
+    .desktop-list li a:hover{
+        border-bottom: 4px solid hsl(26, 100%, 55%);
+    }
+
+    .display-block{
+        display: flex;
+        width: 95%;
+        border-style: solid;
+        border-color:  hsl(220, 14%, 75%);
+        border-bottom: 0;
+        margin-left: 30px;
+    }
+
+    .main-container{
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .benner-box{
+        width: 40%;
+    }
+    .details-info{
+        width: 50%;
+    }
+
+    .product-1{
+        border-radius: 25px;
+    }
+    .thumbnail-jpg{
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .product-thumbnail{
+        border: 2px solid transparent;
+        border-radius: 20px;
+   
+    }
+
+    .product-thumbnail:hover{
+        border: 2px solid hsl(26, 100%, 55%);
+
+    }
+
+    .cost-box{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .cost-box .iskonto{
+        margin-top: 15px;
+    }
+
+    .bttn-box{
+        width: 100%;
+        display: flex;
+        margin-top: 60px;
+    }
+
+    .bttn-box .number-of-items{
+        width: 40%;
+        margin-top: 0;
+        margin-right: 20px;
+    }
+    .bttn-box .bttn-orange{
+        margin: 0;
+    }
+
+
+  }
