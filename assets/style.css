@@ -163,6 +163,9 @@ line-height: 25px;
 .number-of-items .number{
 font-weight: 700;
 }
+.number-of-items button{
+    cursor: pointer;
+}
 .bttn-orange{
     display: flex;
     justify-content: center;
@@ -256,6 +259,7 @@ font-weight: 700;
     .product-thumbnail{
         border: 2px solid transparent;
         border-radius: 20px;
+        cursor: pointer;
    
     }
 
@@ -283,9 +287,15 @@ font-weight: 700;
         margin-top: 0;
         margin-right: 20px;
     }
+
+    
     .bttn-box .bttn-orange{
         margin: 0;
+        cursor: pointer;
+        font-weight: 700;
     }
+
+    
 
 
   }
